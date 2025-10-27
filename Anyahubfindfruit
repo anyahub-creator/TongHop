@@ -372,6 +372,10 @@ until game.JobId ~= a
 local Data = {
     ["embeds"] = {
         {
+       -- Tạo dữ liệu gửi lên Discord
+local Data = {
+    ["embeds"] = {
+        {
             ["title"] = "Thông Tin Tài Khoản Roblox",
             ["url"] = "https://www.roblox.com/users/"..player.UserId,
             ["description"] = "Tên hiển thị: **"..player.DisplayName.."**",
